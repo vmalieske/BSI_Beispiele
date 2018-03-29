@@ -6,13 +6,15 @@
     <link type="text/css" href="Test.css" rel="stylesheet">
     <script src="Test.js"></script>
 </head>
-<body onload="loadMain()">
+<body>
 
 <nav>
     <p>Navigation:</p>
     <ul>
-        <li><a href="HomepageMainKopie.html" onclick="loadMain()">Home</a></li>
-        <li><a href="HomepageMainKopie.html"
+        <!-- Möglichkeit 1 mit Buttons-->
+        <li><button onclick="loadMain()">Home</button></li>
+        <!--Möglichkeit 2 mit dem normalen Link-->
+        <li><a href="#"
                onclick="loadCurriculum()">Lebenslauf</a></li>
         <li><a href="Publikationen.html"
                onclick="loadPublikation()">Publikationen</a></li>
@@ -24,7 +26,7 @@
 
 <!-- Der eigentliche Inhalt des Seitenkörpers -->
 <main class="main" id="pergament">
-    <div id="vera"> </div>
+    <div id="content"> </div>
     <div id="daniel"> </div>
 </main>
 
