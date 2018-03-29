@@ -1,0 +1,13 @@
+<h1>Lebenslauf</h1>
+<img src="Platzhalterbild.jpg" alt="Musterbild">
+<table>
+    <tr>
+        <td>Name:</td>
+        <td>Max Mustermann</td>
+    </tr>
+    <tr>
+        <td>Anschrift:</td>
+        <td>Musterstrasse 1</td>
+        <td>44444 Musterstadt</td>
+    </tr>
+</table>
